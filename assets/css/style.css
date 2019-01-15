@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 3.2em;
   font-weight: 100;
   margin: 0;
 }
@@ -76,20 +76,7 @@ blockquote {
   padding: 0;
 }
 
-.text-small {
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
 
-.sub-heading {
-  font-size: 20px;
-}
-
-.client-name {
-  font-style: italic;
-  display: block;
-}
 
 @media (max-width: 768px) {
   h1 {
@@ -108,12 +95,138 @@ blockquote {
     margin-bottom: 20px;
   }
 }
-small, .font_small {
-  font-size: 0.707em;
+
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
-.list-block li {
-  float: right;
+
+nav {
+  height: 50px;
+  line-height: 50px;
+  webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 }
 
-/******************** ICONGRAPHY ********************/
+nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+nav ul li:first-child {
+  margin-left: 20px;
+}
+nav ul li a {
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+nav ul li a:hover {
+  text-transform: uppercase;
+  color: black;
+}
+
+
+
+.banner-container {
+  padding-top: 40px;
+  width: 98%;
+  margin: 0 auto;
+  min-height: 450px;
+  display: flex;
+}
+.banner-left{
+  background: url(../images/banner1.png) no-repeat;
+  background-size: cover;
+
+  height: 450px;
+  width: 70%;
+}
+.banner-right {
+  width: 29%;
+  margin-left: 1%;
+}
+.banner-right-rowone {
+  background: url(../images/banner2.png) no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  background-size: length;
+  height: 221px;
+  width: 100%;
+}
+
+.banner-right-rowtwo {
+  background: url(../images/banner3.png) no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  background-size: length;
+
+  height: 221px;
+  width: 100%;
+  margin-top: 8px;
+}
+.banner-right{
+  width: 40%;
+}
+
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lates-container {
+  min-height: 600px;
+}
+.lates-container ul li{
+  float: left;
+}
+
+
+.lates-container .col {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+
+.col:last-child {
+  margin-right:0;
+}
+.col img{
+  width: 100%;
+}
+
+
+
+.funding{
+  margin-top: 50px;
+}
+
+.funding ul li{
+  float: left;
+}
+
+.funding .col {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
