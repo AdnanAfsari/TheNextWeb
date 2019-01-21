@@ -1,0 +1,320 @@
+/*
+|----------------------------------------------------------------------------
+| GLOBAL STYLES
+|----------------------------------------------------------------------------
+*/
+/******************** TYPOGRAPHY ********************/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #696969;
+}
+
+img {
+  width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #313131;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.5em;
+  font-weight: 600;
+  line-height: 1.04;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3.2em;
+  font-weight: 100;
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 500;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+blockquote {
+  border: none;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+  line-height: 50px;
+  webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+nav ul li a:hover {
+  text-transform: uppercase;
+  color: black;
+}
+
+.banner-container {
+  padding-top: 40px;
+  width: 98%;
+  margin: 0 auto;
+  min-height: 450px;
+  display: flex;
+}
+
+.banner-left {
+  background: url(../images/banner1.png) no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 450px;
+  width: 70%;
+}
+
+.banner-right {
+  width: 29%;
+  margin-left: 1%;
+}
+
+.banner-right-rowone {
+  background: url(../images/banner2.png) no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  background-size: 100% 100%;
+  height: 221px;
+  width: 100%;
+}
+
+.banner-right-rowtwo {
+  background: url(../images/banner3.png) no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  background-size: 100% 100%;
+  height: 221px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.banner-right {
+  width: 40%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lates-container {
+  min-height: 600px;
+}
+
+.lates-container ul li {
+  float: left;
+}
+
+.lates-container .col {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+.col img {
+  width: 100%;
+}
+
+.funding {
+  margin-top: 50px;
+}
+
+.funding ul li {
+  float: left;
+}
+
+.funding .col {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+
+.lates-ganeric-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.lates-ganeric-container .grid {
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+}
+
+.lates-ganeric-container .grid img {
+  width: 100%;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.lates-ganeric-container .grid-details ul li {
+  list-style-type: disc;
+  border-bottom: 2px solid #ddd;
+  padding: 15px;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer .footer-top {
+  background: #1a1a1a;
+  padding: 20px;
+}
+
+footer .footer-social i {
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 50px 50px;
+  background: #404040;
+}
+
+@media (max-width: 768px) {
+
+
+nav ul li a {
+  font-size: 0.6em;
+}
+
+nav ul li {
+  padding-right: 7px;
+}
+  .banner-container {
+    display: block;
+  }
+
+  .banner-left {
+    width: 98%;
+  }
+
+  .banner-right {
+    width: 98%;
+    margin-left: 0;
+  }
+
+  .banner-right-rowone {
+    width: 100%;
+  }
+  .container {
+    width: 95%;
+  }
+  .lates-container {
+    min-height: 400px;
+  }
+  .lates-container .col {
+    width: 100%;
+  }
+
+  .funding .col {
+    width: 100%;
+
+  }
+
+  .lates-ganeric-container {
+    display: block;
+    width: 100%;
+  }
+
+  .lates-ganeric-container .grid {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .lates-ganeric-container .grid img {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+
+  .lates-ganeric-container .grid-details ul li {
+
+    padding: 5px;
+  }
+
+}
